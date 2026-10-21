@@ -1,3 +1,0 @@
-text_type,r_valence,r_arousal,r_mean,rmse_valence,rmse_arousal,mae_valence,mae_arousal,n
-essay,0.5740,0.3416,0.4578,1.1333,0.6720,0.8840,0.5421,239
-word list,0.6626,0.6042,0.6334,0.9614,0.6502,0.7978,0.5665,332
