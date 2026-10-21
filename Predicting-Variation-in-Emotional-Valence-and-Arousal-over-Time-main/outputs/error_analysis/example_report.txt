@@ -1,0 +1,274 @@
+ERROR ANALYSIS REPORT — M10
+Validation set: 571 samples
+
+
+============================================================
+BEST PREDICTIONS (lowest mean |error|)
+============================================================
+[1]  text_type: essay  |  text_id: 400  |  user_id: 88
+  text: "I am currently feeling pretty tired , but I woke up very early today so I believe that is normal . Besides being tired ,..."
+  valence  — true: -1.00  pred: -0.98  err: +0.02
+  arousal  — true: 0.00  pred: 0.05  err: +0.05
+  mean |err|: 0.035
+
+[2]  text_type: essay  |  text_id: 2385  |  user_id: 116
+  text: "Right now , my mood is neutral . Nothing too crazy is happening . I ' m not angry at all or having an emotional breakdow..."
+  valence  — true: 0.00  pred: -0.01  err: -0.01
+  arousal  — true: 1.00  pred: 1.06  err: +0.06
+  mean |err|: 0.036
+
+[3]  text_type: essay  |  text_id: 1549  |  user_id: 26
+  text: "It’s a nice day out so I’m happy . I ate a good lunch with my girlfriend so today has been good . I do work later but it..."
+  valence  — true: 1.00  pred: 1.06  err: +0.06
+  arousal  — true: 1.00  pred: 1.04  err: +0.04
+  mean |err|: 0.053
+
+[4]  text_type: essay  |  text_id: 2384  |  user_id: 116
+  text: "Today , I ' m feeling alright . Nothing is really bringing me down right now . I think I ' m in a good place . I was abl..."
+  valence  — true: 1.00  pred: 0.89  err: -0.11
+  arousal  — true: 1.00  pred: 0.99  err: -0.01
+  mean |err|: 0.056
+
+[5]  text_type: essay  |  text_id: 1529  |  user_id: 26
+  text: "I have two more days of work and then a day off . My girlfriend and I are going down town and definitely going to drink ..."
+  valence  — true: 1.00  pred: 1.10  err: +0.10
+  arousal  — true: 1.00  pred: 0.96  err: -0.04
+  mean |err|: 0.071
+
+
+============================================================
+WORST PREDICTIONS (highest mean |error|)
+============================================================
+[1]  text_type: essay  |  text_id: 4305  |  user_id: 169
+  text: "I am happy to have had a wonderful ,   delicious lunch with my husband . It made him happy and content . I want to give ..."
+  valence  — true: -2.00  pred: 1.44  err: +3.44
+  arousal  — true: 0.00  pred: 0.78  err: +0.78
+  mean |err|: 2.109
+
+[2]  text_type: essay  |  text_id: 4288  |  user_id: 169
+  text: "I am feeling better than yesterday and have a better mood as well . I am still low on my self esteem and want to love my..."
+  valence  — true: -2.00  pred: 1.24  err: +3.24
+  arousal  — true: 0.00  pred: 0.94  err: +0.94
+  mean |err|: 2.094
+
+[3]  text_type: essay  |  text_id: 4289  |  user_id: 169
+  text: "I am feeling better than yesterday and have a better mood as well . I am still low on my self esteem and want to love my..."
+  valence  — true: -2.00  pred: 1.24  err: +3.24
+  arousal  — true: 0.00  pred: 0.94  err: +0.94
+  mean |err|: 2.094
+
+[4]  text_type: essay  |  text_id: 4308  |  user_id: 169
+  text: "I am worried about the future of my family . \nI want to work hard and be helpful to my family . I am enjoying my weeken..."
+  valence  — true: -2.00  pred: 1.46  err: +3.46
+  arousal  — true: 0.00  pred: 0.72  err: +0.72
+  mean |err|: 2.088
+
+[5]  text_type: essay  |  text_id: 4298  |  user_id: 169
+  text: "I am feeling ok and worried about the future . I want to be a good citizen and have money to take care of my family . I ..."
+  valence  — true: -2.00  pred: 1.24  err: +3.24
+  arousal  — true: 0.00  pred: 0.84  err: +0.84
+  mean |err|: 2.040
+
+
+============================================================
+WORST ESSAYS
+============================================================
+[1]  text_type: essay  |  text_id: 4305  |  user_id: 169
+  text: "I am happy to have had a wonderful ,   delicious lunch with my husband . It made him happy and content . I want to give ..."
+  valence  — true: -2.00  pred: 1.44  err: +3.44
+  arousal  — true: 0.00  pred: 0.78  err: +0.78
+  mean |err|: 2.109
+
+[2]  text_type: essay  |  text_id: 4288  |  user_id: 169
+  text: "I am feeling better than yesterday and have a better mood as well . I am still low on my self esteem and want to love my..."
+  valence  — true: -2.00  pred: 1.24  err: +3.24
+  arousal  — true: 0.00  pred: 0.94  err: +0.94
+  mean |err|: 2.094
+
+[3]  text_type: essay  |  text_id: 4289  |  user_id: 169
+  text: "I am feeling better than yesterday and have a better mood as well . I am still low on my self esteem and want to love my..."
+  valence  — true: -2.00  pred: 1.24  err: +3.24
+  arousal  — true: 0.00  pred: 0.94  err: +0.94
+  mean |err|: 2.094
+
+[4]  text_type: essay  |  text_id: 4308  |  user_id: 169
+  text: "I am worried about the future of my family . \nI want to work hard and be helpful to my family . I am enjoying my weeken..."
+  valence  — true: -2.00  pred: 1.46  err: +3.46
+  arousal  — true: 0.00  pred: 0.72  err: +0.72
+  mean |err|: 2.088
+
+[5]  text_type: essay  |  text_id: 4298  |  user_id: 169
+  text: "I am feeling ok and worried about the future . I want to be a good citizen and have money to take care of my family . I ..."
+  valence  — true: -2.00  pred: 1.24  err: +3.24
+  arousal  — true: 0.00  pred: 0.84  err: +0.84
+  mean |err|: 2.040
+
+
+============================================================
+WORST WORD LISTS
+============================================================
+[1]  text_type: word list  |  text_id: 3472  |  user_id: 138
+  text: "Tired , Disappointed , Anxious , Tired , Content"
+  valence  — true: 2.00  pred: -0.70  err: -2.70
+  arousal  — true: 0.00  pred: 1.00  err: +1.00
+  mean |err|: 1.852
+
+[2]  text_type: word list  |  text_id: 1414  |  user_id: 24
+  text: "Tired , Lethargic , Nitpicky , Grumpy , Unfocused"
+  valence  — true: 1.00  pred: -0.95  err: -1.95
+  arousal  — true: 2.00  pred: 0.42  err: -1.58
+  mean |err|: 1.764
+
+[3]  text_type: word list  |  text_id: 3836  |  user_id: 150
+  text: "Peaceful , Calm , Warm , Fluid , Curious"
+  valence  — true: -1.00  pred: 1.55  err: +2.55
+  arousal  — true: 0.00  pred: 0.70  err: +0.70
+  mean |err|: 1.625
+
+[4]  text_type: word list  |  text_id: 56  |  user_id: 2
+  text: "Active , Awake , Rested , Refreshed , Fine"
+  valence  — true: 2.00  pred: 0.18  err: -1.82
+  arousal  — true: 0.00  pred: 1.39  err: +1.39
+  mean |err|: 1.604
+
+[5]  text_type: word list  |  text_id: 4800  |  user_id: 67
+  text: "Calm , Happy , Normal , Relaxed , Neutral"
+  valence  — true: 0.00  pred: 1.68  err: +1.68
+  arousal  — true: 2.00  pred: 0.57  err: -1.43
+  mean |err|: 1.553
+
+
+============================================================
+LARGEST VALENCE OVER-PREDICTIONS
+============================================================
+[1]  text_type: essay  |  text_id: 4299  |  user_id: 169
+  text: "I am content and working to make sure my family is supported and loved . I want to give them a home and others things to..."
+  valence  — true: -2.00  pred: 1.52  err: +3.52
+  arousal  — true: 1.00  pred: 0.71  err: -0.29
+  mean |err|: 1.908
+
+[2]  text_type: essay  |  text_id: 4308  |  user_id: 169
+  text: "I am worried about the future of my family . \nI want to work hard and be helpful to my family . I am enjoying my weeken..."
+  valence  — true: -2.00  pred: 1.46  err: +3.46
+  arousal  — true: 0.00  pred: 0.72  err: +0.72
+  mean |err|: 2.088
+
+[3]  text_type: essay  |  text_id: 4305  |  user_id: 169
+  text: "I am happy to have had a wonderful ,   delicious lunch with my husband . It made him happy and content . I want to give ..."
+  valence  — true: -2.00  pred: 1.44  err: +3.44
+  arousal  — true: 0.00  pred: 0.78  err: +0.78
+  mean |err|: 2.109
+
+[4]  text_type: essay  |  text_id: 4288  |  user_id: 169
+  text: "I am feeling better than yesterday and have a better mood as well . I am still low on my self esteem and want to love my..."
+  valence  — true: -2.00  pred: 1.24  err: +3.24
+  arousal  — true: 0.00  pred: 0.94  err: +0.94
+  mean |err|: 2.094
+
+[5]  text_type: essay  |  text_id: 4289  |  user_id: 169
+  text: "I am feeling better than yesterday and have a better mood as well . I am still low on my self esteem and want to love my..."
+  valence  — true: -2.00  pred: 1.24  err: +3.24
+  arousal  — true: 0.00  pred: 0.94  err: +0.94
+  mean |err|: 2.094
+
+
+============================================================
+LARGEST VALENCE UNDER-PREDICTIONS
+============================================================
+[1]  text_type: essay  |  text_id: 469  |  user_id: 11
+  text: "I just finished work I am feeling pretty exhausted mentally and physically . I just want to go to sleep but I have a mil..."
+  valence  — true: 2.00  pred: -0.79  err: -2.79
+  arousal  — true: 0.00  pred: 0.78  err: +0.78
+  mean |err|: 1.788
+
+[2]  text_type: word list  |  text_id: 3472  |  user_id: 138
+  text: "Tired , Disappointed , Anxious , Tired , Content"
+  valence  — true: 2.00  pred: -0.70  err: -2.70
+  arousal  — true: 0.00  pred: 1.00  err: +1.00
+  mean |err|: 1.852
+
+[3]  text_type: essay  |  text_id: 496  |  user_id: 11
+  text: "It was a good shift I feel good is actually have alot of e energy it was so busy but I didn’t really care . I do think I..."
+  valence  — true: 2.00  pred: -0.66  err: -2.66
+  arousal  — true: 1.00  pred: 1.17  err: +0.17
+  mean |err|: 1.416
+
+[4]  text_type: essay  |  text_id: 441  |  user_id: 11
+  text: "My body is sore from yesterday and my shoulders are killing me . I don’t have to work so I am in a good mood . I ate rea..."
+  valence  — true: 2.00  pred: -0.44  err: -2.44
+  arousal  — true: 0.00  pred: 0.57  err: +0.57
+  mean |err|: 1.505
+
+[5]  text_type: word list  |  text_id: 3482  |  user_id: 138
+  text: "Tired , Content , Happy , Exhausted , Happy"
+  valence  — true: 2.00  pred: -0.37  err: -2.37
+  arousal  — true: 0.00  pred: 0.31  err: +0.31
+  mean |err|: 1.342
+
+
+============================================================
+LARGEST AROUSAL OVER-PREDICTIONS
+============================================================
+[1]  text_type: essay  |  text_id: 1559  |  user_id: 26
+  text: "Today has been long . A lot of people are getting sick that I know . Also at work the printer isn’t working and I can’t ..."
+  valence  — true: -2.00  pred: -0.64  err: +1.36
+  arousal  — true: 0.00  pred: 1.44  err: +1.44
+  mean |err|: 1.402
+
+[2]  text_type: essay  |  text_id: 1553  |  user_id: 26
+  text: "It hasn’t been a bad day but it’s moving slowly . Today is the first day of nine straight days I have to work . It’s als..."
+  valence  — true: -1.00  pred: -0.12  err: +0.88
+  arousal  — true: 0.00  pred: 1.41  err: +1.41
+  mean |err|: 1.146
+
+[3]  text_type: word list  |  text_id: 56  |  user_id: 2
+  text: "Active , Awake , Rested , Refreshed , Fine"
+  valence  — true: 2.00  pred: 0.18  err: -1.82
+  arousal  — true: 0.00  pred: 1.39  err: +1.39
+  mean |err|: 1.604
+
+[4]  text_type: essay  |  text_id: 4982  |  user_id: 50
+  text: "I’m heading into my weekend after working 60 hours the last 6 days , so I slept in and am feeling lazy . I’ll spend the ..."
+  valence  — true: -1.00  pred: -0.08  err: +0.92
+  arousal  — true: 0.00  pred: 1.38  err: +1.38
+  mean |err|: 1.146
+
+[5]  text_type: essay  |  text_id: 1386  |  user_id: 99
+  text: "I am still feeling anxious because I haven’t gotten a response to an important email and I still have a lot of work to g..."
+  valence  — true: 0.00  pred: -0.47  err: -0.47
+  arousal  — true: 0.00  pred: 1.37  err: +1.37
+  mean |err|: 0.921
+
+
+============================================================
+LARGEST AROUSAL UNDER-PREDICTIONS
+============================================================
+[1]  text_type: word list  |  text_id: 3485  |  user_id: 138
+  text: "Tired , Happy , Content , Excited , Exhausted"
+  valence  — true: 1.00  pred: 0.03  err: -0.97
+  arousal  — true: 2.00  pred: 0.35  err: -1.65
+  mean |err|: 1.307
+
+[2]  text_type: essay  |  text_id: 461  |  user_id: 11
+  text: "I drank too much last night and I have anxiety and am very uncomfortable . I have to work both jobs today I’m exhausted ..."
+  valence  — true: -2.00  pred: -1.21  err: +0.79
+  arousal  — true: 2.00  pred: 0.37  err: -1.63
+  mean |err|: 1.208
+
+[3]  text_type: essay  |  text_id: 459  |  user_id: 11
+  text: "I am tired and having anxiety feeling very anxious . I am off today so that is helpful . I am a little jittery feel unab..."
+  valence  — true: -1.00  pred: -1.26  err: -0.26
+  arousal  — true: 2.00  pred: 0.38  err: -1.62
+  mean |err|: 0.940
+
+[4]  text_type: word list  |  text_id: 1414  |  user_id: 24
+  text: "Tired , Lethargic , Nitpicky , Grumpy , Unfocused"
+  valence  — true: 1.00  pred: -0.95  err: -1.95
+  arousal  — true: 2.00  pred: 0.42  err: -1.58
+  mean |err|: 1.764
+
+[5]  text_type: word list  |  text_id: 3254  |  user_id: 40
+  text: "Tired , Happy , Active , Motivational , Successful"
+  valence  — true: 0.00  pred: 0.43  err: +0.43
+  arousal  — true: 2.00  pred: 0.50  err: -1.50
+  mean |err|: 0.961
